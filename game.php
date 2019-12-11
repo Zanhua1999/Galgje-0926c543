@@ -116,6 +116,8 @@ if (isset($_POST['submit']) && $_COOKIE['lives'] != 0)
         if (isset($_COOKIE['message']))
         {
           echo "<h1>" . $_COOKIE['message'] . "</h1>";
+
+          header("refresh:2; url=galgje.php");
         }
 
         ?>
