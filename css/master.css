@@ -1,0 +1,65 @@
+html, body
+{
+  height: 95%;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.linkerdiv
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.form
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 10%;
+  width: 50%;
+}
+
+.section
+{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+
+input
+{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.streepjes_container
+{
+  width: 80%;
+  margin: auto;
+}
+
+img
+{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 40%;
+}
+
+.img_container
+{
+  width: 100%;
+}
+
+.streepje
+{
+  display: inline-block;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin: 10px;
+}
