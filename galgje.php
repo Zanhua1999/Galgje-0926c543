@@ -5,7 +5,7 @@
     <title>Galgje</title>
   </head>
   <body>
-    <form class="form" action="index.php" method="post">
+    <form class="form" action="galgje.php" method="post">
       <input type="text" name="word" value="">
       <input type="submit" name="submit" value="start">
     </form>
